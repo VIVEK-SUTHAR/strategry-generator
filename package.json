@@ -1,0 +1,23 @@
+{
+  "name": "strategry-generator",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@types/express": "^5.0.0",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "hardhat": "^2.22.15",
+    "solc": "^0.8.28",
+    "viem": "^2.21.45"
+  }
+}
